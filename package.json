@@ -1,0 +1,52 @@
+{
+  "name": "rimba",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@redis/client": "^5.6.0",
+    "adm-zip": "^0.5.16",
+    "archiver": "^7.0.1",
+    "axios": "^1.11.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.18",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.0",
+    "express-validator": "^7.2.1",
+    "form-data": "^4.0.4",
+    "google-auth-library": "^10.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.5",
+    "p-map": "^7.0.3",
+    "pdfkit": "^0.17.2",
+    "pg": "^8.16.3",
+    "puppeteer": "^24.24.0",
+    "redis": "^5.6.0",
+    "smtp-connection": "^4.0.2",
+    "uuid": "^11.1.0",
+    "validator": "^13.15.15",
+    "winston": "^3.17.0",
+    "wkx": "^0.5.0",
+    "xlsx": "^0.18.5",
+    "xmlbuilder": "^15.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
